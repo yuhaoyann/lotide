@@ -24,10 +24,16 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-const tail = function(array) {
-  let out = [];
-  for (let i = 1; i < array.length; i++) {
-    out.push(array[i]);
+const eqArrays = function(array1, array2) {
+  for (let i = 0; i < (array1.length + array2.length) / 2; i++) {
+    if (array1[i] !== array2[i]) {
+      return false;
+    }
   }
-  return out;
-};
+  return true;
+}
+
+assertEqual(eqArrays([1, 2, 3], [3, 2, 1]), false);
+assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true);
+assertEqual(eqArrays(["1", "2", "3"], ["1", "2", "3"]), true);
+assertEqual(eqArrays(["1", "2", "3"], ["1", "2", 3]), false);

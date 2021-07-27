@@ -14,8 +14,14 @@ const assertEqual = function(actual, expected) {
     } else {
       console.log(`${fail}${fail}${fail}Assertion Failed: ${actual} !== ${expected}`);
     }
+  } else if (typeof actual === 'boolean' && typeof actual === typeof expected) {
+    if (actual === expected) {
+      console.log(`${pass}${pass}${pass}Assertion Passed: ${actual} === ${expected}`);
+    } else {
+      console.log(`${fail}${fail}${fail}Assertion Failed: ${actual} !== ${expected}`);
+    }
   } else {
-    console.log('error');
+    console.log('error, unrecogonized error');
   }
 };
 
