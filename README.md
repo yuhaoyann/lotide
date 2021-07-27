@@ -4,9 +4,9 @@ This repository contains the [lotide](https://github.com/yuhaoyann/lotide) proje
 ## Table of Contents
 * [assertEqual](/assertEqual.js)
   * compare two element
-* head
+* [head](/head.js)
   * get first element
-* tail
+* [tail](/tail.js)
   * get all element except first one
-* eqArrays
+* [eqArrays](eqArrays.js)
   * compare element in two arrays
