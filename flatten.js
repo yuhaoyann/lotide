@@ -15,15 +15,17 @@ const assertArraysEqual = function(array1, array2) {
     console.log(`${fail}${fail}${fail}Assertion Failed: [${array1}] !== [${array2}]`);
   }
 };
-const without = function(source, itemsToRemove) {
+const flatten = function(array) {
   let out = [];
-  for (let i of source) {
-    if (!itemsToRemove.includes(i)) {
-    out.push(i);
+  for (let i of array) {
+    if (Array.isArray(i)) {
+      for (let j of i) {
+        out.push(j);
+      }
+    } else {
+      out.push(i);
     }
   }
   return out;
-}
-
-const words = ["hello", "world", "lighthouse"];
-assertArraysEqual(without(words, ["lighthouse"]), ["hello", "world", "lighthouse"]);
+};
+assertArraysEqual(flatten([1, 2, [3, 4], 5, [6]]), [1, 2, 3, 4, 5, 6]);
