@@ -14,3 +14,5 @@ This repository contains the [lotide](https://github.com/yuhaoyann/lotide) proje
   * compare two arrays directly
 * [without](/without.js)
   * return a subset of a given array, removing unwanted elements
+* [flatten](/flatten.js)
+  * return a "flattened" version of the array
