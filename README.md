@@ -16,3 +16,5 @@ This repository contains the [lotide](https://github.com/yuhaoyann/lotide) proje
   * return a subset of a given array, removing unwanted elements
 * [flatten](/flatten.js)
   * return a "flattened" version of the array
+* [middle](/middle.js)
+  * return middle-most element(s) of the given array
