@@ -18,3 +18,5 @@ This repository contains the [lotide](https://github.com/yuhaoyann/lotide) proje
   * return a "flattened" version of the array
 * [middle](/middle.js)
   * return middle-most element(s) of the given array
+* [countOnly](/countOnly.js)
+  * return an object countatining counts of everything that the input object listed
