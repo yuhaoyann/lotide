@@ -22,3 +22,5 @@ This repository contains the [lotide](https://github.com/yuhaoyann/lotide) proje
   * return an object countatining counts of everything that the input object listed
 * [countLetters](/countLetters.js)
   * return a count of each of the letters in that sentence
+* [letterPositions](/letterPositions.js)
+  * return all the indices (zero-based positions) in the string where each character is found
