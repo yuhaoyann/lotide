@@ -35,3 +35,10 @@ This repository contains the [lotide](https://github.com/yuhaoyann/lotide) proje
     1. An array to map
     2. A callback function
   * The map function will return a new array based on the results of the callback function
+* [takeUntil](/takeUntil.js)
+  * take in two parameters:
+    1. The array to work with
+    2. The callback (which Lodash calls "predicate")
+  * The function will return a "slice of the array with elements taken from the beginning." It should keep going until the callback/predicate returns a truthy value
+* [findKey](/findKey.js)
+  * takes in an object and a callback. It should scan the object and return the first key for which the callback returns a truthy value. If no key is found, then it should return undefined
