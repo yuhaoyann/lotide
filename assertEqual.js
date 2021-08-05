@@ -1,4 +1,3 @@
-// FUNCTION IMPLEMENTATION
 const assertEqual = function(actual, expected) {
   let pass = String.fromCodePoint(0x1F493);
   let fail = String.fromCodePoint(0x1F4A3);
@@ -16,6 +15,5 @@ const assertEqual = function(actual, expected) {
     }
   }
 };
-// TEST CODE
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(1, 1);
+
+module.exports = assertEqual;
