@@ -1,6 +1,27 @@
-# Lotide Notes
+# Lotide
+A mini clone of the [Lodash](https://lodash.com) library.
 ## Summary
 This repository contains the [lotide](https://github.com/yuhaoyann/lotide) project which built a mini library  for the Lighthouse Labs Web Development Bootcamp.
+## Purpose
+
+**_BEWARE:_ This library was published for learning purposes. It is _not_ intended for use in production-grade software.**
+
+This project was created and published by me as part of my learnings at Lighthouse Labs. 
+
+## Usage
+
+**Install it:**
+
+`npm install @yuhaoyan/lotide`
+
+**Require it:**
+
+`const _ = require('@yuhaoyan/lotide');`
+
+**Call it:**
+
+`const results = _.tail([1, 2, 3]) // => [2, 3]`
+
 ## Table of Contents
 * [assertEqual](/assertEqual.js)
   * compare the two values it takes in and print out a message telling us if they match or not

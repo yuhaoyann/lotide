@@ -1,8 +1,8 @@
 {
-  "name": "lotide",
+  "name": "@yuhaoyan/lotide",
   "version": "1.0.0",
   "description": "library project for lighthouse",
-  "main": "assertArraysEqual.js",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/yuhaoyann/lotide.git"
   },
-  "author": "",
+  "author": "haoyan",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/yuhaoyann/lotide/issues"
