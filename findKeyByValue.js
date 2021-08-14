@@ -1,5 +1,3 @@
-const assertEqual = require('./assertEqual');
-
 const findKeyByValue = function (input, value) {
   for (let i in input) {
     if (input[i] === value) {
