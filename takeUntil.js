@@ -1,5 +1,3 @@
-const assertArraysEqual = require('./assertArraysEqual');
-
 const takeUntil = function(array, callback) {
   let out = [];
   for(let i = 0; !callback(array[i]); i++) {

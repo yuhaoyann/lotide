@@ -1,6 +1,6 @@
 {
   "name": "@yuhaoyan/lotide",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "library project for lighthouse",
   "main": "index.js",
   "directories": {
